@@ -8,16 +8,16 @@ optional_depends dbus-glib \
    "for dbus support" \
    "y"
 
-optional_depends pcre \
-                 "--enable-pcre" \
-                 "--disable-pcre" \
-                 "enable PCRE support" \
+optional_depends pcre2 \
+                 "--enable-pcre2" \
+                 "--disable-pcre2" \
+                 "enable PCRE2 regex support" \
                  "y"
 
 optional_depends libnotify \
                  "--enable-notifications" \
                  "--disable-notifications" \
-                 "enable notifiactions support" \
+                 "enable notifications support" \
                  "y"
 
 optional_depends libgudev \
@@ -35,9 +35,9 @@ optional_depends tumbler "" "" "for thumbnail previews"
 optional_depends xfce4-panel "" "" "for trash applet"
 
 optional_depends gtk-doc \
-                 "--enable-gtk-doc=yes" \
-                 "--enable-gtk-doc=no" \
-                 "for nstalling the documentation" \
+                 "--enable-gtk-doc=yes --enable-gtk-doc-html=yes" \
+                 "--enable-gtk-doc=no --enable-gtk-doc-html=no" \
+                 "for installing the documentation" \
                  "n"
 
 optional_depends gobject-introspection \
