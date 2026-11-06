@@ -5,7 +5,7 @@
     SOURCE_VFY=sha256:7fb8517c12309ca4ddf8b42c34bc0c315e38ea077b5442bfcc4509415feada8f
       WEB_SITE=http://www.xfce.org
        ENTERED=20110118
-       UPDATED=20241224
+       UPDATED=20260802
          SHORT="A menu library for Xfce"
 
 cat << EOF

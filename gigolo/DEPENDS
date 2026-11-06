@@ -1,2 +1,4 @@
 depends gvfs
+depends xfce4-dev-tools
 depends intltool
+depends meson

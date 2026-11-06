@@ -5,7 +5,7 @@
       SOURCE_VFY=sha256:1fba39a08a0ecc771eaa3a3b6e4272a4f0b9e7c67d0f66e780cd6090cd4466aa
         WEB_SITE=https://gitlab.xfce.org/xfce/xfce4-dev-tools
          ENTERED=20030715
-         UPDATED=20241224
+         UPDATED=20260802
            SHORT="Autoconf macros and scripts to augment xfce4 app build systems"
 
 cat << EOF
